@@ -1,4 +1,12 @@
 # Netzadresse und Broadcast ermitteln
+
+## Kurzfassung
+
+### Berechnung Netzadresse (mit logisch AND, OR)
+
+    Netzadresse = SubNetMask AND IP 
+    Broadcast = invertierte SubNetMask OR IP 
+
 ## a) ---
 ## b) 89.56.155.66 /19
 
